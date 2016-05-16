@@ -1,0 +1,107 @@
+#box {
+    background-image: url("https://i.ytimg.com/vi/Nv_2Y6-8uO8/maxresdefault.jpg");
+    background-size: cover;
+}
+
+#box2 {
+
+}
+#yourName { font-size: xx-large;
+    color: olivedrab;
+
+}
+#businessName { font-size: large;
+    color: olivedrab;
+
+}
+#box {
+    background-image: url("https://i.ytimg.com/vi/Nv_2Y6-8uO8/maxresdefault.jpg");
+    background-size: cover;
+
+
+}
+#email {
+    font-size: large;
+    color: olivedrab;
+}
+#phoneNumber {
+    font-size: large;
+    color: olivedrab;
+}
+
+html {
+
+  background-color: rgb(115,28,28);
+}
+
+.myButton {
+    -moz-box-shadow: 0px 10px 15px -7px #276873;
+    -webkit-box-shadow: 0px 10px 15px -7px #276873;
+    box-shadow: 0px 10px 15px -7px #276873;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+    background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+    background-color:#599bb3;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius:20px;
+    border:5px solid #29668f;
+    display:inline-block;
+    cursor:pointer;
+    color:rgb(115,28,28);
+    font-family: ;
+    font-size:15px;
+    font-weight:bold;
+    padding:5px 46px;
+    text-decoration:none;
+    text-shadow:16px -6px 0px #3d768a;
+}
+.myButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+    background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+    background-color:#408c99;
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.panel-default {
+    background-color: black;
+
+}
+
+#progress-bar1 {
+    color: silver;
+    background-color: rgb(115,28,28);
+}
+#progress-bar2 {
+    color: silver;
+    background-color: rgb(15,68,102);
+}
+#progress-bar3 {
+    color: silver;
+    background-color: rgb(153,151,7);
+}
+#progress-bar4 {
+    color: silver;
+    background-color: rgb(212,92,24);
+}
+
+p {
+    color: silver;
+}
+
+h2 {
+    color: silver;
+}
+

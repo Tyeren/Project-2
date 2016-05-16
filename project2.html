@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap-theme.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link href="Screen%20Shot%202016-05-13%20at%2010.20.36%20PM.png">
+    <title>Title</title>
+</head>
+<body onload="makeCard()">
+
+
+<style>
+    #box{width: 450px; height: 250px; overflow:hidden; border: rgb(153,151,7) 10px solid;}
+    .left{float:left; width: 40%; }
+    .right {float: right; width: 40%;}
+</style>
+
+
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div align="left" class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <button  class="myButton" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    About me
+                </button>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <div class="left"><p><img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/13055469_205071186551488_5655669361221317723_n.jpg?oh=7dce3fa3f1342cad323efdcf0b0964e9&oe=57A930C9" height="30%" width="30%" alt="me!"></p> </div>
+                <div class="right">
+                    <h2>Contact Me!</h2>
+                    <p>Name: Steven Johnson</p>
+                    <p>Date of Birth: April 20th 1993</p>
+                    <p>Home Address: 1718E Mountain View Drive Spanish Fork UT 84660</p>
+                    <p>Phone: 385-224-2306</p>
+                    <p>Email: dirt3199@yahoo.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div align="left" class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+                <button class="myButton" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Resume
+                </button>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+                <div class="left">
+                    <p>Previous employment history:</p>
+                    <ul>
+                        <li>
+                            <p>Checker/Freighter, Ridleys Family Markets, Orem Ut- 12/2015-Present</p>
+                        </li>
+                        <li>
+                            <p>Detail Technician, Wiggy Wash Springville, UT— 1/2014-12/2015</p>
+                        </li>
+                        <li>
+                            <p>Clerk, Associated Fresh Market Spanish Fork , UT— 4/2009-10/2013</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                <div class="progress">
+                    <div id="progress-bar1" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                        HTML 80%
+                    </div>
+                    </div>
+                <div class="progress">
+                <div id="progress-bar2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                        CSS 80%
+                    </div>
+                    </div>
+                <div class="progress">
+                <div id="progress-bar3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                        JAVA 30%
+                    </div>
+                    </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div align="left" class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <button class="myButton" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Projects
+                </button>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <div class="left" id="box">
+                    <div class="left">
+                        <div id="yourName"></div>
+                        <div id="phoneNumber"></div>
+                        <div id="businessName"></div>
+                        <div id="email"></div>
+                    </div>
+                    <div class="right">
+                        <img src="http://static.comicvine.com/uploads/original/14/146793/2955362-0436260369-Maste.png" width="180px" height="230px">
+                    </div>
+
+                </div>
+                <div class="right"> <a href="https://github.com/Tyeren/Firstproject"><button class="myButton">First Web Page</button></a>
+                    <div id="box2"> </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="java.js"></script>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
